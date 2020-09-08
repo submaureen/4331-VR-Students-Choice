@@ -1,40 +1,126 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="reveal.css">
-		<link rel="stylesheet" href="theme/black.css" id="theme">
+    <title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="reveal.css">
+    <link rel="stylesheet" href="theme/black.css" id="theme">
 
-		<script src="plugin/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <img src="flaim-logo.png" style="transform: scale(.5);">
+                <h5>Virtual Reality Firefighter Training</h5>
+                <p>
+                    <small>Created at <a
+                            href="https://blogs.deakin.edu.au/manufutures-learning-portal/our-partners/flaim-systems/">Deakin
+                            University</a> and located at <a
+                            href="https://flaimsystems.com/">flaimsystems.com</a></small>
+                </p>
+
+            </section>
+            <section>Overview
+                <div class="two-col" style="display: flex">
+                    <div style="width: 100%; display: flex; flex-direction: column; text-align: left">What is it?
+                        <div>
+                            <small>FLAIM Trainer is a firefighter training simulator that utilizes a virtual reality
+                                environment, haptic feedback, and custom equipment to provide a low-cost solution for
+                                training in hazardous and emergency situations.</small>
+                        </div>
+                    </div>
+                    <div style="width: 100%; display: flex; flex-direction: column; text-align: left">History
+                        <div>
+                            <small>It is the result of over 10 years of research at Deakin University, Australia. The
+                                models in FLAIM are intended to mimic a fire envionment as realistically as possible,
+                                from the way that it reacts to the user to how it spreads and ignites on different
+                                materials.</small>
+                        </div>
+                        <img src="pictures/slide-3-model.png">
+
+                    </div>
+                </div>
+            </section>
+            <section> Use and application
+                <div>
+                    <small>FLAIM is being developed as a low*-cost alternative and supplement to live fire training. The
+                        best suited applications are for scenarios that are too dangerous or expensive (or both) to
+                        constantly enact in real life.</small>
+                </div>
+            </section>
+            <section>The Basics™
+                <h3>There are two types of FLAIM training equipment</h3>
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                    <img style="width:50%; height: 50%" src="pictures/slide-4-types.png">
+                    <img class="fragment" src="pictures/slide-4-extinguish.png">
+                </div>
+
+
+            </section>
+            <section>
+                <img src="pictures/slide-4-flaim.png">
+                <div style="display:flex; flex-direction: row; flex-basis: content;min-height: 0; flex-shrink: 1;">
+                    <div style="width: 20%; min-width: 0;">
+                        <p style="font-size: small;">The VR headset that is used. SteamVR is used to launch the software.</p>
+                    </div>
+                    <div style="width: 20%; min-width: 0;">
+                        <p style="font-size: small;">On the tip of this Task Force Tip G-Force branch/nozzle is a ViveTracker for motion tracking.</p>
+                    </div>
+                    <div style="width: 20%; min-width: 0;">
+                        <p style="font-size: small;">This mobile-hose line reel unit, along with the nozzle, is capable of generating up to 300N (67.44 pounds) of force.</p>
+                    </div>
+                    <div style="width: 40%; min-width: 0;">
+                        <p style="font-size: small;">The heat suit contains heat generation components, haptic feedback, and vitals measurement. It can generate heat up to 70°C (158°F). </p>
+                        <p style="font-size: small;">The self-contained breathing apparatus (SCBA) is the same suit and mask used by firefighters in real scenarios and is where the head mounted VR display is incorporated.</p>
+                    </div>
+                </div>
+            </section>
+            <section>Why is it unique and a good use of VR?
+
+            </section>
+            <section> Weaknesses
+                <p class="fragment">uh huh</p>
+
+            </section>
+            <section> Similar Applications
+
+            </section>
+            <section> Potential Applications
+
+            </section>
+            <section> Conclusion
+
+            </section>
+            <section>References
+
+            </section>
+        </div>
+    </div>
+
+    <script src="plugin/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+        // More info about initialization & config:
+        // - https://revealjs.com/initialization/
+        // - https://revealjs.com/config/
+        Reveal.initialize({
+            hash: true,
+
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+        });
+    </script>
+</body>
+
 </html>
